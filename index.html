@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="style1000.css">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.css'>
+    <script src=https://kit.fontawesome.com/cf59b010c9.js crossorigin='anonymous'></script>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a class="nav__a nav__a--active">INICIO</a>
+            <a class="nav__a">EL LUGAR</a>
+            <a class="nav__a">MENÚ</a>
+            <a class="nav__a">RESERVAS</a>
+            <a class="nav__a">CONTACTO Y UBICACIÓN</a>
+        </nav>
+        <h4>
+            <i>Calle restaurante</i>
+        </h4>
+    </header>
+    <main>
+        <section class="section-menu" style="opacity: 0; z-index: -1;">
+            <h4>MENÚ PRINCIPAL</h4>
+            <div class="section-menu__container">
+                <div class="section-menu__container__title">
+                    <h4>CORTES</h4><p>Sección</p>
+                </div>
+                <b class="grid-center">RACIONES</b>
+                <b class="grid-center">MEDIAS</b>
+                <b class="grid-center">TAPAS</b>
+
+                <div class="section-menu__container__plate">
+                    <p>Comida</p><p>Elemento</p>
+                </div>
+                <p class="grid-center">1€</p>
+                <p class="grid-center">1€</p>
+                <p class="grid-center">1€</p>
+
+                <div class="section-menu__container__plate">
+                    <p>Comida</p><p>Elemento</p>
+                </div>
+                <p class="grid-center">1€</p>
+                <p class="grid-center">1€</p>
+                <p class="grid-center">1€</p>
+
+                <div class="section-menu__container__plate">
+                    <p>Comida</p><p>Elemento</p>
+                </div>
+                <p class="grid-center">1€</p>
+                <p class="grid-center">1€</p>
+                <p class="grid-center">1€</p>
+
+                <div class="section-menu__container__plate">
+                    <p>Comida</p><p>Elemento</p>
+                </div>
+                <p class="grid-center">1€</p>
+                <p class="grid-center">1€</p>
+                <p class="grid-center">1€</p>
+
+                <div class="gap"></div><div class="gap"></div><div class="gap"></div><div class="gap"></div>
+
+                <div class="section-menu__container__title">
+                    <h4>GUARNICIONES</h4><p>Sección</p>
+                </div>
+                <b class="grid-center">RACIONES</b>
+                <b class="grid-center">MEDIAS</b>
+                <b class="grid-center">TAPAS</b>
+
+                <div class="section-menu__container__plate">
+                    <p>Comida</p><p>Elemento</p>
+                </div>
+                <p class="grid-center">1€</p>
+                <p class="grid-center">1€</p>
+                <p class="grid-center">1€</p>
+
+                <div class="section-menu__container__plate">
+                    <p>Comida</p><p>Elemento</p>
+                </div>
+                <p class="grid-center">1€</p>
+                <p class="grid-center">1€</p>
+                <p class="grid-center">1€</p>
+
+                <div class="section-menu__container__plate">
+                    <p>Comida</p><p>Elemento</p>
+                </div>
+                <p class="grid-center">1€</p>
+                <p class="grid-center">1€</p>
+                <p class="grid-center">1€</p>
+
+                <div class="section-menu__container__plate">
+                    <p>Comida</p><p>Elemento</p>
+                </div>
+                <p class="grid-center">1€</p>
+                <p class="grid-center">1€</p>
+                <p class="grid-center">1€</p>
+
+            </div>
+        </section>
+        <section class="section-one">
+            <img src="img/img.webp">
+
+            <div class="section-one__text">
+                <h1 class="section-one__text__title">PLANTILLA</h1>
+                <h4 class="section-one__text__subtitle">PLANTILLA DESC</h4>
+                <input type="button" id="landpage-menu-btn" value="MENÚ" onclick="menuStart()">
+            </div>
+        </section>
+        <section class="section-two">
+            <div class="section-two__img"></div>
+
+            <h4 class="section-two__title">EL RESTAURANTE</h4>
+
+            <div class="section-two__cards">
+                <div class="section-two__card">
+                    <b>01</b>
+                    <div class="card__line"></div>
+                    <h4>CARACTERÍSTICA</h4>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Laudantium, itaque quibusdam animi quaerat odit aperiam minima maxime a quam omnis, 
+                        error quo recusandae officiis. Voluptates quam magnam modi ipsum aliquam!
+                    </p>
+                </div>
+                <div class="section-two__card">
+                    <b>02</b>
+                    <div class="card__line"></div>
+                    <h4>CARACTERÍSTICA</h4>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Laudantium, itaque quibusdam animi quaerat odit aperiam minima maxime a quam omnis, 
+                        error quo recusandae officiis. Voluptates quam magnam modi ipsum aliquam!
+                    </p>
+            </div>
+            <div class="section-two__card">
+                <b>03</b>
+                <div class="card__line"></div>
+                <h4>CARACTERÍSTICA</h4>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Laudantium, itaque quibusdam animi quaerat odit aperiam minima maxime a quam omnis, 
+                    error quo recusandae officiis. Voluptates quam magnam modi ipsum aliquam!
+                </p>
+        </section>
+        <section class="section-three">
+            <div class="section-three__img"></div>
+
+            <h4 class="section-three__title">RESERVA UNA MESA</h4>
+        </section>
+        <section class="section-four">
+            <div class="section-four__img"></div>
+
+            <h4 class="section-four__title">EL ASADO PERFECTO A TIEMPO</h4>
+            <p class="section-four__p">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Laudantium, itaque quibusdam animi quaerat odit aperiam minima maxime a quam omnis, 
+                error quo recusandae officiis. Voluptates quam magnam modi ipsum aliquam!
+            </p>
+        </section>
+        <section class="section-five">
+            <div class="section-five__img"></div>
+
+            <h4 class="section-five__title">TÓMATE ALGO EN EL BAR</h4>
+            <p class="section-five__p">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Laudantium, itaque quibusdam animi quaerat odit aperiam minima maxime a quam omnis, 
+                error quo recusandae officiis. Voluptates quam magnam modi ipsum aliquam!
+            </p>
+        </section>
+        <section class="section-six">
+            <h4 class="section-six__title">GALERÍA</h4>
+
+            <div class="section-six__gallery">
+                <div class="section-six__gallery__photo">PHOTO 1</div>
+                <div class="section-six__gallery__photo">PHOTO 2</div>
+                <div class="section-six__gallery__photo">PHOTO 3</div>
+                <div class="section-six__gallery__photo">PHOTO 4</div>
+                <div class="section-six__gallery__photo">PHOTO 5</div>
+                <div class="section-six__gallery__photo">PHOTO 6</div>
+                <div class="section-six__gallery__photo">PHOTO 7</div>
+                <div class="section-six__gallery__photo">PHOTO 8</div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h4 class="footer__title">CONTACTO Y UBICACIÓN</h4>
+        <b>DINOS LO QUE PIENSAS</b>
+        <form id="footer-form">
+            <input type="text" placeholder="Nombre" class="footer-form__name" autocomplete="none" required>
+            <input type="email" placeholder="Email" class="footer-form__email" autocomplete="none" required>
+            <input type="tel" placeholder="Teléfono" class="footer-form__tel" autocomplete="none">
+            <textarea type="text" class="footer-form__textarea" autocomplete="none" placeholder="Escribe tu mensaje aquí..." required></textarea>
+        </form>
+        <div class="footer__btn-container">
+            <input type="submit" form="footer-form" class="footer__btn-container__btn" value="ENVIAR">
+        </div>
+        <b>LOCALICACIÓN RESTAURANTE<br>HORARIO RESTAURANTE</b>
+
+        <div id='map' style='width: 566px; height: 256px; margin-bottom: 20px; position: relative; cursor: move;'>
+            <div class="buttons">
+                <div class="button-plus">+</div>
+                <div class="button-minus">-</div>
+            </div>
+        </div>
+
+        <div class="return">
+            <i class="fa-solid fa-angle-up"></i><br>
+            <b>VOLVER</b>
+        </div>
+        <div class="footer">
+            <p>© Restaurante</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
