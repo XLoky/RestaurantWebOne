@@ -79,7 +79,7 @@ header h4{
 .section-one{
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
     height: 92vh;
     position: relative;
     transition: filter .5s;
@@ -128,7 +128,7 @@ header h4{
 
 .section-two{
     height: 700px;
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -195,7 +195,7 @@ header h4{
 }
 
 .section-three{
-    width: 100%;
+    width: 100vw;
     height: 75vh;
     position: relative;
     display: flex;
@@ -221,7 +221,7 @@ header h4{
 }
 
 .section-four{
-    width: 100%;
+    width: 100vw;
     height: 75vh;
     position: relative;
     display: flex;
@@ -260,7 +260,7 @@ header h4{
 }
 
 .section-five{
-    width: 100%;
+    width: 100vw;
     height: 75vh;
     position: relative;
     display: flex;
@@ -297,7 +297,7 @@ header h4{
 }
 
 .section-six{
-    width: 100%;
+    width: 100vw;
     position: relative;
     background-color: #323232;
     transition: filter .5s;
