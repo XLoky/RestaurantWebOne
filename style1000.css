@@ -1,59 +1,107 @@
-@media screen and (max-width: 850px) and (min-width: 750px) { /*TABLETS*/
-    .section-one__text{
-        transform: scale(80%);
-    }
-    .section-two{
-        flex-direction: column;
-        justify-content: stretch;
-        height: 1200px;
-    }
-    .section-two__title{
-        margin-top: 1em;
-    }
-    .section-two__cards{
-        width: 100vw;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 300px;
-    }
-    .section-two__card{
-        margin: 2em 0;
-    }
+@media screen and (max-width: 850px) and (min-width: 750px) {
+  /*TABLETS*/
+  .section-one__text {
+    transform: scale(80%);
+  }
+  .section-two {
+    flex-direction: column;
+    justify-content: stretch;
+    height: 1200px;
+  }
+  .section-two__title {
+    margin-top: 1em;
+  }
+  .section-two__cards {
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 300px;
+  }
+  .section-two__card {
+    margin: 2em 0;
+  }
 
-    .section-four__p,.section-five__p{
-        width: 400px;
-    }
+  .section-four__p,
+  .section-five__p {
+    width: 400px;
+  }
 }
 
-@media screen and (max-width: 750px) { /*TABLETS*/
-    nav{
-        justify-content: space-around;
-    }
-    .nav__a{
-        font-size: .6em;
-    }
-    .section-one__text{
-        transform: scale(50%);
-    }
-    .section-two{
-        flex-direction: column;
-        justify-content: stretch;
-        height: 1200px;
-    }
-    .section-two__title{
-        margin-top: 1em;
-    }
-    .section-two__cards{
-        width: 100vw;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 300px;
-    }
-    .section-two__card{
-        margin: 2em 0;
-    }
-
-    .section-four__p,.section-five__p{
-        width: 400px;
-    }
+@media screen and (max-width: 750px) {
+  /*TABLETS*/
+  header{
+    width: 100vw;
+  }
+  nav{
+    gap: 4px;
+  }
+  .nav__a {
+    font-size: 0.6em;
+    text-align: center;
+    width: 20vw;
+  }
+  .section-menu > h4{
+    text-align: center;
+  }
+  .section-menu__container{
+    grid-template-columns: 30vw repeat(3,20vw);
+    grid-auto-rows: 80px;
+    row-gap: 1px;
+    background:
+    repeating-linear-gradient(to bottom,
+      #0000 0 80px, #af9e70 0 81px
+    );
+  }
+  .section-menu__container__title h4{
+    transform: translateY(-30px);
+  }
+  .section-menu__container b{
+    /*RACIONES Y ESO*/
+    letter-spacing: 0px;
+  }
+  .section-one__text {
+    transform: scale(40%);
+  }
+  .section-two {
+    flex-direction: column;
+    justify-content: stretch;
+    height: 1200px;
+  }
+  .section-two__title {
+    margin-top: 1em;
+    font-size: 2em;
+  }
+  .section-three__title{
+    font-size: 2em;
+  }
+  .section-four__title{
+    margin-top: 16px;
+    font-size: 2em;
+  }
+  .section-five__title{
+    font-size: 2em;
+    margin: 32px 0;
+  }
+  .section-two__cards {
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 300px;
+  }
+  .section-two__card {
+    margin: 2em 0;
+  }
+  .section-four__p,
+  .section-five__p {
+    width: 400px;
+  }
+  .section-six{
+    display: none;
+  }
+  footer{
+    width: 100vw;
+  }
+  footer > *{
+    transform: scale(70%);
+  }
 }
