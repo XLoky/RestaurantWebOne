@@ -98,6 +98,12 @@
   .section-six{
     display: none;
   }
+  .section-two__img,
+  .section-three__img,
+  .section-four__img,
+  .section-five__img{
+    background-position: center;
+  }
   footer{
     width: 100vw;
   }
