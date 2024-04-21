@@ -19,7 +19,7 @@ const removeActiveNav = () => {
 
 
 addEventListener("scroll",(e)=>{
-    image.style.transform = `translate(${scrollX / 1.1}px, ${scrollY / 1.1}px) scale(105%)`;
+    if(window.innerWidth > 750) image.style.transform = `translate(${scrollX / 1.1}px, ${scrollY / 1.1}px) scale(105%)`;
     if(scrollX > 0){
         scroll(0,scrollY)
     }
